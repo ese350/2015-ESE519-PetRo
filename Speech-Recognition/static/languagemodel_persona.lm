@@ -1,0 +1,85 @@
+Language model created by QuickLM on Sat May  2 20:42:21 EDT 2015
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 15 sentences and 17 words
+
+\data\
+ngram 1=17
+ngram 2=30
+ngram 3=15
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.9542 AND -0.2218
+-1.9542 BUT -0.2218
+-1.9542 JACOB -0.2218
+-1.9542 KIRAN -0.2218
+-1.9542 NOW -0.2218
+-1.9542 OF -0.2218
+-1.9542 ON -0.2218
+-1.9542 PETRO -0.2218
+-1.9542 PRATHIK -0.2218
+-1.9542 RIGHT -0.2218
+-1.9542 SAY -0.2218
+-1.9542 WHAT -0.2218
+-1.9542 WHICH -0.2218
+-1.9542 WITH -0.2218
+-1.9542 WORK -0.2218
+
+\2-grams:
+-1.4771 <s> AND 0.0000
+-1.4771 <s> BUT 0.0000
+-1.4771 <s> JACOB 0.0000
+-1.4771 <s> KIRAN 0.0000
+-1.4771 <s> NOW 0.0000
+-1.4771 <s> OF 0.0000
+-1.4771 <s> ON 0.0000
+-1.4771 <s> PETRO 0.0000
+-1.4771 <s> PRATHIK 0.0000
+-1.4771 <s> RIGHT 0.0000
+-1.4771 <s> SAY 0.0000
+-1.4771 <s> WHAT 0.0000
+-1.4771 <s> WHICH 0.0000
+-1.4771 <s> WITH 0.0000
+-1.4771 <s> WORK 0.0000
+-0.3010 AND </s> -0.3010
+-0.3010 BUT </s> -0.3010
+-0.3010 JACOB </s> -0.3010
+-0.3010 KIRAN </s> -0.3010
+-0.3010 NOW </s> -0.3010
+-0.3010 OF </s> -0.3010
+-0.3010 ON </s> -0.3010
+-0.3010 PETRO </s> -0.3010
+-0.3010 PRATHIK </s> -0.3010
+-0.3010 RIGHT </s> -0.3010
+-0.3010 SAY </s> -0.3010
+-0.3010 WHAT </s> -0.3010
+-0.3010 WHICH </s> -0.3010
+-0.3010 WITH </s> -0.3010
+-0.3010 WORK </s> -0.3010
+
+\3-grams:
+-0.3010 <s> AND </s>
+-0.3010 <s> BUT </s>
+-0.3010 <s> JACOB </s>
+-0.3010 <s> KIRAN </s>
+-0.3010 <s> NOW </s>
+-0.3010 <s> OF </s>
+-0.3010 <s> ON </s>
+-0.3010 <s> PETRO </s>
+-0.3010 <s> PRATHIK </s>
+-0.3010 <s> RIGHT </s>
+-0.3010 <s> SAY </s>
+-0.3010 <s> WHAT </s>
+-0.3010 <s> WHICH </s>
+-0.3010 <s> WITH </s>
+-0.3010 <s> WORK </s>
+
+\end\
